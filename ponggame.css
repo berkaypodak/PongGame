@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: 600;
+    flex-direction: column;
+    background: rgb(4,9,4);
+    background: linear-gradient(90deg, rgba(4,9,4,1) 0%, rgba(26,71,0,1) 100%);
+}
+
+#one_btn {
+    padding: 10px 20px;
+    text-align: center;
+    margin-left: 165px;
+    margin-bottom: 5px;
+    width: 130px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #66eb4b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+#one_btn:active {
+    background-color: #1bf02d;
+}
+#two_btn {
+
+    padding: 10px 20px;
+    text-align: center;
+    margin-left: 165px;
+    font-size: 16px;
+    width: 130px;
+    cursor: pointer;
+    background-color: #66eb4b;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+#one_btn:hover
+{
+    transition: 1s;
+    color: #1bf02d;
+    background-color: white;
+
+}
+#two_btn:hover
+{
+    transition: 1s;
+    color: #1bf02d;
+    background-color: white;
+
+}
+
+#two_btn:active {
+    background-color: #1bf02d;
+}
+
+.basla{
+    width: 500px;
+    height: 230px;
+    border: 1px solid white;
+    box-shadow: 5px 3px 3px  white;
+}
+
+h1
+{
+    text-align: center;
+}

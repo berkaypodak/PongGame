@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: monospace;
+    font-weight: 600;
+    flex-direction: column;
+    background: rgb(4,9,4);
+    background: linear-gradient(90deg, rgba(4,9,4,1) 0%, rgba(26,71,0,1) 100%); 
+}
+
+#game-container {
+    height: 65vh;
+    width: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(75vh - 10px);
+    margin-bottom: 0.5em;
+}
+
+
+#sr-btn {
+    width: 300px;
+    padding: 10px;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    background-color: #66eb4b;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    margin-bottom: 0.5em;
+    margin-right: 5px;
+}
+#sr-btn:hover
+{
+    transition: 1s;
+    color: #1bf02d;
+    background-color: white;
+
+}
+#pause-btn {
+    width: 300px;
+    padding: 10px;
+    font-size: 1.5em;
+    letter-spacing: 0.1em;
+    background-color: #66eb4b;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    margin-bottom: 0.5em;
+    margin-right: 5px;
+}
+#pause-btn:hover
+{
+    transition: 1s;
+    color: #1bf02d;
+    background-color: white;
+}
+.winner-box {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+    background: rgb(4,9,4);
+    background: linear-gradient(90deg, rgba(4,9,4,1) 0%, rgba(26,71,0,1) 100%);
+}
